@@ -32,7 +32,7 @@
   .col9 {
     background-color: rgb(156, 20, 156);
   }
-  .base1 {
+  .fondo1 {
     background-color: rgb(64, 223, 170);
   }
   .pj {
@@ -42,5 +42,5 @@
     margin-top: -16px;
   }
   .ti {
-    margin-bottom: 0px;
+    margin-bottom: 2px;
   }
