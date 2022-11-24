@@ -1,0 +1,38 @@
+.fondo{
+    background: green;
+}
+.fondoa{
+    background-image: url(Recursos/Warning.gif);
+    
+    
+}
+.tex1{
+    font-size: 35px;
+
+}
+.tex2{
+    font: white
+    ;
+}
+.table1{
+    width: 90%;
+    padding: 40px;
+    margin: 30px;
+
+}
+.img1{
+    border-radius: 15px;
+    width: 120px;
+}
+.img2{
+    border-radius: 10px;
+}
+.back{
+    margin: 20px;
+    border-radius: 15px;
+    width: 135px;
+    
+}
+.cent{
+    text-align: center;
+}
