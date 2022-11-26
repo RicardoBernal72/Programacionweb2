@@ -1,23 +1,33 @@
 .fondo{
-    background: green;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(0,204,255,1) 0%, rgba(0,253,133,1) 100.2% );
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed;
 }
 .fondoa{
     background-image: url(Recursos/Warning.gif);
     
     
 }
+.fondob{
+    background-image: url(Recursos/335199.jpg);
+}
 .tex1{
     font-size: 35px;
+    color: black;
 
 }
 .tex2{
-    font: white
-    ;
+    color: #156404;
+    font-size: 25px;
 }
 .table1{
-    width: 90%;
-    padding: 40px;
+    width: 95%;
+    padding: 20px;
     margin: 30px;
+    border-radius: 12px;
+    
 
 }
 .img1{
