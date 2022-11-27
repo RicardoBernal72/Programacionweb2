@@ -9,7 +9,7 @@ const di=1;
     
 
     function op(){
-    let de = prompt("Quieres agregar(1) o eliminar(2) no intermedios");
+    let de = prompt("Quieres agregar(1), eliminar(2) Salir(3)");
     switch(de){
 
     // funcion  en donde se  relaizan tanto la añadicion como la restación de lementso
@@ -25,9 +25,12 @@ const di=1;
         break
         
     case"3":
-        let continuar=prompt("dontinuar?");
+        let continuar=prompt("el programa a terminado");
         if (continuar==no){
             return di=4;
+        }
+        if(continuar==si){
+            return di=1;
         }
     
         
