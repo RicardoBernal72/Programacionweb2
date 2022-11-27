@@ -22,6 +22,10 @@
     color: #156404;
     font-size: 25px;
 }
+.tex3{
+    font-size: 30px;
+    text-align: center;
+}
 .table1{
     width: 95%;
     padding: 20px;
@@ -36,6 +40,7 @@
 }
 .img2{
     border-radius: 10px;
+    width: 20%;
 }
 .back{
     margin: 20px;
