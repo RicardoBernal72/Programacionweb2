@@ -1,7 +1,13 @@
-let ejer=prompt("elige el ejercicio");
+let ejer=prompt(`Elige el ejercicio
+    1=Pregunta del nombre
+    2=Suma de 2 números
+    3=Opracion NOT
+    4=Operacion AND
+    5=Operacion OR
+ `);
 switch(ejer){
-    case"1":
-    alert("Pregunta")
+    case"1": 
+    alert("Pregunta");
     let nombre=prompt("cual es tu nombre");
     alert("tu nombre es :"+nombre);
     break;
@@ -15,7 +21,7 @@ switch(ejer){
     break;
 
     case"3":
-    alert("Operacion NOT")
+    alert("Operacion NOT");
     var inv=prompt("ingresa 1 ó 0");
     if(inv==1){
         var inv=0
@@ -28,7 +34,7 @@ switch(ejer){
     break;
 
     case"4":
-    alert("Operacion AND")
+    alert("Operacion AND");
     let n1=parseInt(prompt("ingresa 1 ó 0"));
     let n2=parseInt(prompt("ingresa 1 ó 0"));
     if(n1==0){
@@ -44,7 +50,7 @@ switch(ejer){
 
 
     case"5":
-    alert("Operacion OR")
+    alert("Operacion OR");
     let nu1=parseInt(prompt("ingresa 1 ó 0"));
     let nu2=parseInt(prompt("ingresa 1 ó 0"));
     if(nu1==1){
