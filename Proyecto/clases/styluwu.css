@@ -26,6 +26,10 @@
     font-size: 30px;
     text-align: center;
 }
+.tex4{
+    color: white;
+    font-size: 25px;
+}
 .table1{
     width: 100%;
     padding: 20px;
@@ -45,7 +49,7 @@
 .back{
     margin: 20px;
     border-radius: 15px;
-    width: 135px;
+    width: 160px;
     
 }
 .cent{

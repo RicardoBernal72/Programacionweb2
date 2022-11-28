@@ -4,6 +4,8 @@ let ejer=prompt(`Elige el ejercicio
     3=Opracion NOT
     4=Operacion AND
     5=Operacion OR
+    6= un if simple
+    7=intenta adivinar el número
  `);
 switch(ejer){
     case"1": 
@@ -65,13 +67,27 @@ switch(ejer){
     break;
 
     case"6":
-
+    alert("if simple")
+    let cas=prompt("Cual es tu edad?")
+    if (cas<=20){
+        alert("un tines camino que recorrer joven ")
+    }
+    if (cas>20){
+        alert("ya estas un paso mas pallá que pacá")
+    }
+    break;
 
     case"7":
+    alert("adivina el número")
     let rand=Math.random();
     let un=prompt("ingresa un numero")
     let ram=(Math.floor(rand*10));
-    for (i;let (ine=10);i++){
-
+    if (ram==un){
+        alert("Adivinaste toma una galleta")
     }
+    else{
+        alert("Suerte para la proxima el número era : "+ram)
+    }
+
+    
 }

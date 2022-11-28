@@ -30,11 +30,11 @@ console.log("un saludo: "+saludo);
 
 multi(num1,num2);
 */
-/*
-let name="aaron";
+
+let name="Ricardo";
 console.log(`
 Nombre:
-${name.toUpperCase()}
+${name.}
 `);
 
 //puedes declarar la misma variable si es que se encuntrad entor de una estructurasin que se sobreescriba al usar let.
@@ -44,10 +44,10 @@ if(estado){
     console.log(estado);
 }
 console.log(estado)
-*/
+
 //es importanntre comprender que incluidos los arreglos ylas fucniones asignados mediante una varibalede con sigune siendo mutables el uso de cons solo evita la reasignacion del identificador de variable.
 
-const Frutas = ["Aguacate"];
+const Frutas = ["Aguacate","Manzana","Cereza"];
 Frutas.push("Mango");
 const nombres=["hio","hod","hadho"]
 console.log(Frutas);

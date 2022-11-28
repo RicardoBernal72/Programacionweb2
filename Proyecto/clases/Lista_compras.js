@@ -25,13 +25,9 @@ const di=1;
         break
         
     case"3":
-        let continuar=prompt("el programa a terminado");
-        if (continuar==no){
-            return di=4;
-        }
-        if(continuar==si){
-            return di=1;
-        }
+        alert("el programa a terminado");
+        alert("tu lista final fue: "+listaC)
+        return di=4;
     
         
     }
